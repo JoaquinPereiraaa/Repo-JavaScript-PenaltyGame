@@ -3,13 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Tanda de Penales</title>
   </head>
   <body>
-    <div>
-      <h1>CHAMPIONS TANDA DE PENALES</h1>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col">
+          <h1>UCL PENALTY SHOOTUOT</h1>
+          <button id="startButton" class="btn btn-danger">START</button>
+        </div>
+      </div>
     </div>
-    <script src="./js/index.js"></script>
+    <audio autoplay>
+      <source
+        src="./assets/audio/uefa-champions-league-leagu.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+    <script src="/js/index.js"></script>
   </body>
 </html>
