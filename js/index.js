@@ -54,6 +54,7 @@ function iniciarTorneo() {
       atajadasUsuario: 0,
       atajadasRival: 0,
     };
+
     alert(`Fecha ${partidosJugados + 1} \n ${equipoRival} vs ${nombreUsuario}`);
     console.log(
       `Fecha ${partidosJugados + 1} \n ${equipoRival} vs ${nombreUsuario}`
