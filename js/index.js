@@ -1,5 +1,4 @@
 document.getElementById("startButton").addEventListener("click", iniciarTorneo);
-
 function iniciarTorneo() {
   alert(
     "🏆⚽ BIENVENIDO AL TORNEO DE PENALES CONTRA LOS 8 MEJORES EQUIPOS DE LA CHAMPIONS LEAGUE ⚽🏆. \nPodrá ver el historial de partidos en la consola(aprete F12)"
@@ -55,7 +54,7 @@ function iniciarTorneo() {
       atajadasUsuario: 0,
       atajadasRival: 0,
     };
-
+    alert(`Fecha ${partidosJugados + 1} \n ${equipoRival} vs ${nombreUsuario}`);
     console.log(
       `Fecha ${partidosJugados + 1} \n ${equipoRival} vs ${nombreUsuario}`
     );
