@@ -121,7 +121,7 @@ function iniciarTorneo() {
             `¡QUE GOLAZOOOOOOOOOOOOO! \n Resultado actual: ${nombreUsuario}: ${goles} - ${equipoRival}: ${atajadas}`
           );
           console.log(
-            `¡QUE GOLAZOOOOOOOOOOOOO! \n Resultado actual: ${nombreUsuario}: ${goles} - ${equipoRival}: ${atajadas}`
+            `¡QUE GOLAZOOOooooOOOOOOOOOO! \n Resultado actual: ${nombreUsuario}: ${goles} - ${equipoRival}: ${atajadas}`
           );
           break;
         case "atajada":
